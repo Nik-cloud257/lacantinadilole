@@ -1,0 +1,21 @@
+{
+    "short_name": "Cantina LoLe",
+    "name": "La Cantina di LoLe - Ordini Online",
+    "icons": [
+      {
+        "src": "https://i.postimg.cc/jwMrHC8N/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://i.postimg.cc/jwMrHC8N/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#fcf8f2",
+    "theme_color": "#5c1d24",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
