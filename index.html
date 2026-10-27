@@ -1,14 +1,31 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>La Cantina di LoLe - Ordini Online</title>
+
+    <!-- Impostazioni per trasformare il sito in App Mobile (PWA) -->
+    <meta name="theme-color" content="#5c1d24" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Cantina LoLe" />
+
+    <!-- Icona App per Schermata Home ed Anteprime -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/jwMrHC8N/logo.png" />
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/jwMrHC8N/logo.png" />
+
+    <!-- Meta tag per anteprima WhatsApp -->
+    <meta property="og:title" content="La Cantina di LoLe - Ordini Online" />
+    <meta property="og:description" content="Ordina vini sfusi e Bag-in-Box per consegna a domicilio o ritiro in negozio." />
+    <meta property="og:image" content="https://i.postimg.cc/jwMrHC8N/logo.png" />
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-[#fcf8f2] select-none">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
