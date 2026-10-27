@@ -5,32 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>La Cantina di LoLe - Ordini Online</title>
 
-    <!-- Collegamento al file Manifest per abilitare l'installazione PWA (App Mobile) -->
     <link rel="manifest" href="/manifest.json" />
 
-    <!-- Impostazioni per trasformare il sito in App Mobile (Colori e barra di stato) -->
     <meta name="theme-color" content="#5c1d24" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Cantina LoLe" />
 
-    <!-- Icona App per Schermata Home (deve essere rigorosamente .png) -->
-    <link rel="icon" type="image/png" href="/logo.png" />
-    <link rel="apple-touch-icon" href="/logo.png" />
+    <!-- Nuovi collegamenti all'icona rinominata -->
+    <link rel="icon" type="image/png" href="/app-icon.png" />
+    <link rel="apple-touch-icon" href="/app-icon.png" />
 
-    <!-- Meta tag per anteprima quando si condivide il link su WhatsApp -->
     <meta property="og:title" content="La Cantina di LoLe - Ordini Online" />
     <meta property="og:description" content="Ordina vini sfusi e Bag-in-Box per consegna a domicilio o ritiro in negozio." />
-    <meta property="og:image" content="/logo.png" />
+    <meta property="og:image" content="/app-icon.png" />
     <meta property="og:type" content="website" />
 
-    <!-- Caricamento Grafica Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-[#fcf8f2] select-none">
     <div id="root"></div>
-    <!-- Script principale per caricare React -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
